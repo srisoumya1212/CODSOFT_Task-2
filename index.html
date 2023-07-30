@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src='main.js'></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+            <label class="logo"><span>S</span>RI <span>S</span>OUMYA</label>
+            <ul id="menu">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul> 
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i> 
+        </nav>
+    </div>
+        <div class="home">
+            <h1>Hello,</h1>
+            <p>My Name is</p>
+            <h2 id="name">Gajula Sri Soumya</h2>
+            <a href="20R01A6677_G.SriSoumya.pdf" download>
+            <button class="download" > Resume
+                <i class="fa-solid fa-download"></i>
+            </button>
+        </a>
+        </div> 
+    </div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+        <div class="about1">
+            <img src="profile.jpeg">
+        </div>
+        <div class="about2">
+            <h1 class="self">ABOUT ME</h1>
+            <p id="desc">My name is Soumya. I am an undergraduate in CMR Institute of Technology at Hyderabad. I have accquired skills like C,Java,HTML5,
+                 and a basic knowledge on Javascript.As a fresher and highly motivated individual looking for a responsible role in a reputable organization.
+        </div>
+    </div>
+</div> 
+<div id="skills">
+    <div class="container">
+            <h1 class="self">MY SKILLS</h1>
+            <div class="list-cols">
+                <div class="cols">
+                    Skills
+                    <ol class="content">
+                        <li>c</li>
+                        <li>Java</li>
+                        <li>HTML5</li>
+                        <li>CSS</li>
+                        <li>MY SQL</li>
+                    </ol>
+                </div>
+                <div class="cols">
+                    Certifications
+                    <ol class="content">
+                        <li>Google data Analytics-COURSERA</li>
+                        <li>Cybersecurity Essential-CISCO</li>
+                        <li>Javascript-GUVI</li>
+                    </ol>
+                </div>
+                <div class="cols">
+                    Achievements
+                    <ol class="content">
+                        <li>Certificate of participation in Virtusa Equity Hackathon</li>
+                        <li>Participated in Swecha Telangana Conference</li>
+                        <li>Certificate in Bootcamp on HTML&CSS</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+<div id="projects">
+    <div class="container">
+            <h1 class="self">MY WORK</h1>
+            <div class="proj-list">
+                <div class="work">
+                    <img src="proj-1.jpg">
+                    <div class="overlay">
+                        <h3>PROJECT-1</h3>
+                       <p>Calculator App</p>
+                       <i class="fa-solid fa-calculator"></i>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="proj1.jpg">
+                    <div class="proj-desc">
+                        <h2>DESCRIPTION</h2>
+                        <p>A simple calculator app using HTML ,CSS,Javascript that performs basic calculations.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="proj-2.jpg">
+                    <div class="overlay">
+                    <h3>PROJECT-2</h3>
+                    <p>Credit Card fraud Detection using Adaboost and Majority voting</p>
+                    <i class="fa-solid fa-address-card"></i>
+                </div>
+            </div>
+                <div class="work">
+                    <img src="proj2.png">
+                    <div class="proj-desc">
+                        <h2>DESCRIPTION</h2>
+                        <p>Detects the accuray of fraud using some popular Machine Learning algorithms like Adaboost and Majority Voting.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>            
+    </div>
+</div> 
+<div id="contact">
+    <div class="container">
+            <h1 class="self">CONTACT ME</h1>
+            <div class="contact">
+            <div class="contact-cols">
+                <i class="fa-solid fa-phone-volume"></i>
+                <h2 id="cont-name">Mobile</h2>
+                <h4>8333014209</h4>  
+            </div>
+            <div class="contact-cols">
+                <i class="fa-regular fa-envelope"></i>
+                <h2 id="cont-name">Mail</h2>
+                <h4>soumya21212@gmail.com</h4>
+            </div>
+            <div class="contact-cols">
+                <i class="fa-solid fa-location-arrow"></i>
+                <h2 id="cont-name">Address</h2>
+                <h4>H.NO:5-438,Jeedimetla IDA,<br>Hyderabad</h4>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+<div class="links">
+    <a href="tel:+918333014209"><i class="fa-brands fa-whatsapp"></i></a>
+    <a href="https://github.com/srisoumya1212"><i class="fa-brands fa-github"></i></a>
+    <a href="mailto:soumya21212@gmail.com"><i class="fa-solid fa-paper-plane"></i></a>
+    <a href="https://www.linkedin.com/in/sri-soumya-gajula-8933b8251/"><i class="fa-brands fa-linkedin"></i></a>   
+</div>
+<footer>
+    <p id="footer-content">Copyright &copy; 2023 Sri Soumya. All rights reserved.</p>
+</footer>
+<script>
+    var sidemenu=document.getElementById("menu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+</body>
+</html>
